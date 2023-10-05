@@ -1,0 +1,434 @@
+
+    <html>
+    <head>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                text-align: left;
+                padding: 8px;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+    <pre align="center"> 
+ █████  ██████  ██    ██ ███████ ███████ ██ ██████  ██████  ██████      ██████  ███████ ███████ ██    ██ ██      ████████ ███████ 
+██   ██ ██   ██ ██    ██ ██      ██      ██ ██   ██ ██   ██ ██   ██     ██   ██ ██      ██      ██    ██ ██         ██    ██      
+███████ ██████  ██    ██ ███████ █████   ██ ██████  ██   ██ ██████      ██████  █████   ███████ ██    ██ ██         ██    ███████ 
+██   ██ ██   ██ ██    ██      ██ ██      ██ ██      ██   ██ ██   ██     ██   ██ ██           ██ ██    ██ ██         ██         ██ 
+██   ██ ██████   ██████  ███████ ███████ ██ ██      ██████  ██████      ██   ██ ███████ ███████  ██████  ███████    ██    ███████ 
+                                                      by mahmud0x                      
+                                                                                                                                  </pre>
+    <table id="mytable">
+        <tr>
+            <th onclick="sortTable(0)">IP Address</th>
+            <th onclick="sortTable(1)">Abuse Confidence Score</th>
+            <th onclick="sortTable(2)">Country Code</th>
+            <th onclick="sortTable(3)">Total Reports</th>
+            <th onclick="sortTable(4)">Number of Distinct Users</th>
+        </tr>
+    
+                <tr>
+                    <td>103.149.192.110</td>
+                    <td>37</td>
+                    <td>🇸🇬</td>
+                    <td>34</td>
+                    <td>10</td>
+                </tr>
+                
+                <tr>
+                    <td>198.199.97.24</td>
+                    <td>100</td>
+                    <td>🇺🇸</td>
+                    <td>418</td>
+                    <td>109</td>
+                </tr>
+                
+                <tr>
+                    <td>35.203.211.68</td>
+                    <td>100</td>
+                    <td>🇬🇧</td>
+                    <td>3777</td>
+                    <td>66</td>
+                </tr>
+                
+                <tr>
+                    <td>164.52.36.213</td>
+                    <td>100</td>
+                    <td>🇯🇵</td>
+                    <td>997</td>
+                    <td>132</td>
+                </tr>
+                
+                <tr>
+                    <td>31.94.17.254</td>
+                    <td>0</td>
+                    <td>🇬🇧</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>2.26.16.233</td>
+                    <td>0</td>
+                    <td>🇬🇧</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>31.94.17.252</td>
+                    <td>0</td>
+                    <td>🇬🇧</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>198.199.114.62</td>
+                    <td>100</td>
+                    <td>🇺🇸</td>
+                    <td>418</td>
+                    <td>100</td>
+                </tr>
+                
+                <tr>
+                    <td>108.0.0.0</td>
+                    <td>4</td>
+                    <td>🇺🇸</td>
+                    <td>19</td>
+                    <td>1</td>
+                </tr>
+                
+                <tr>
+                    <td>54.209.60.63</td>
+                    <td>33</td>
+                    <td>🇺🇸</td>
+                    <td>39</td>
+                    <td>8</td>
+                </tr>
+                
+                <tr>
+                    <td>114.0.0.0</td>
+                    <td>2</td>
+                    <td>🇮🇩</td>
+                    <td>17</td>
+                    <td>1</td>
+                </tr>
+                
+                <tr>
+                    <td>35.216.181.245</td>
+                    <td>100</td>
+                    <td>🇨🇭</td>
+                    <td>308</td>
+                    <td>99</td>
+                </tr>
+                
+                <tr>
+                    <td>110.0.0.0</td>
+                    <td>0</td>
+                    <td>🇯🇵</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>103.26.139.224</td>
+                    <td>0</td>
+                    <td>🇧🇩</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>71.6.134.231</td>
+                    <td>100</td>
+                    <td>🇺🇸</td>
+                    <td>9735</td>
+                    <td>257</td>
+                </tr>
+                
+                <tr>
+                    <td>62.133.46.133</td>
+                    <td>12</td>
+                    <td>🇮🇷</td>
+                    <td>2</td>
+                    <td>2</td>
+                </tr>
+                
+                <tr>
+                    <td>103.203.59.1</td>
+                    <td>100</td>
+                    <td>🇯🇵</td>
+                    <td>122</td>
+                    <td>28</td>
+                </tr>
+                
+                <tr>
+                    <td>218.32.249.127</td>
+                    <td>100</td>
+                    <td>🇹🇼</td>
+                    <td>710</td>
+                    <td>165</td>
+                </tr>
+                
+                <tr>
+                    <td>116.0.0.0</td>
+                    <td>4</td>
+                    <td>🇮🇩</td>
+                    <td>21</td>
+                    <td>1</td>
+                </tr>
+                
+                <tr>
+                    <td>167.94.138.51</td>
+                    <td>0</td>
+                    <td>🇺🇸</td>
+                    <td>3479</td>
+                    <td>342</td>
+                </tr>
+                
+                <tr>
+                    <td>31.94.17.253</td>
+                    <td>0</td>
+                    <td>🇬🇧</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>86.178.201.233</td>
+                    <td>0</td>
+                    <td>🇬🇧</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>64.62.197.81</td>
+                    <td>100</td>
+                    <td>🇺🇸</td>
+                    <td>2009</td>
+                    <td>134</td>
+                </tr>
+                
+                <tr>
+                    <td>83.97.73.87</td>
+                    <td>100</td>
+                    <td>🇷🇺</td>
+                    <td>4130</td>
+                    <td>250</td>
+                </tr>
+                
+                <tr>
+                    <td>185.180.143.71</td>
+                    <td>100</td>
+                    <td>🇧🇪</td>
+                    <td>1512</td>
+                    <td>130</td>
+                </tr>
+                
+                <tr>
+                    <td>66.249.93.128</td>
+                    <td>0</td>
+                    <td>🇺🇸</td>
+                    <td>3</td>
+                    <td>2</td>
+                </tr>
+                
+                <tr>
+                    <td>74.82.47.5</td>
+                    <td>100</td>
+                    <td>🇺🇸</td>
+                    <td>2299</td>
+                    <td>190</td>
+                </tr>
+                
+                <tr>
+                    <td>221.229.214.27</td>
+                    <td>100</td>
+                    <td>🇨🇳</td>
+                    <td>156</td>
+                    <td>75</td>
+                </tr>
+                
+                <tr>
+                    <td>185.180.143.189</td>
+                    <td>100</td>
+                    <td>🇧🇪</td>
+                    <td>1789</td>
+                    <td>141</td>
+                </tr>
+                
+                <tr>
+                    <td>192.241.195.48</td>
+                    <td>100</td>
+                    <td>🇺🇸</td>
+                    <td>728</td>
+                    <td>123</td>
+                </tr>
+                
+                <tr>
+                    <td>35.203.210.94</td>
+                    <td>100</td>
+                    <td>🇬🇧</td>
+                    <td>3698</td>
+                    <td>69</td>
+                </tr>
+                
+                <tr>
+                    <td>117.0.0.0</td>
+                    <td>4</td>
+                    <td>🇻🇳</td>
+                    <td>8</td>
+                    <td>1</td>
+                </tr>
+                
+                <tr>
+                    <td>167.94.146.58</td>
+                    <td>0</td>
+                    <td>🇺🇸</td>
+                    <td>2294</td>
+                    <td>291</td>
+                </tr>
+                
+                <tr>
+                    <td>154.209.125.141</td>
+                    <td>100</td>
+                    <td>🇭🇰</td>
+                    <td>593</td>
+                    <td>66</td>
+                </tr>
+                
+                <tr>
+                    <td>181.41.206.226</td>
+                    <td>100</td>
+                    <td>🇺🇸</td>
+                    <td>617</td>
+                    <td>123</td>
+                </tr>
+                
+                <tr>
+                    <td>102.0.0.0</td>
+                    <td>0</td>
+                    <td>🇰🇪</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                
+                <tr>
+                    <td>34.79.162.186</td>
+                    <td>100</td>
+                    <td>🇺🇸</td>
+                    <td>526</td>
+                    <td>98</td>
+                </tr>
+                
+                <tr>
+                    <td>167.94.145.54</td>
+                    <td>0</td>
+                    <td>🇺🇸</td>
+                    <td>1921</td>
+                    <td>298</td>
+                </tr>
+                
+                <tr>
+                    <td>162.142.125.13</td>
+                    <td>0</td>
+                    <td>🇺🇸</td>
+                    <td>2119</td>
+                    <td>342</td>
+                </tr>
+                
+                <tr>
+                    <td>172.245.244.111</td>
+                    <td>94</td>
+                    <td>🇸🇬</td>
+                    <td>30</td>
+                    <td>25</td>
+                </tr>
+                
+    </table>
+    <script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("mytable");
+  switching = true;
+  // Set the sorting direction to ascending:
+  dir = "asc";
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = 1; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /* Check if the two rows should switch place,
+      based on the direction, asc or desc: */
+      if (dir == "asc") {
+        if (n === 1) {
+          // Special handling for Abuse Confidence Score (convert to integer for sorting)
+          if (parseInt(x.innerHTML) > parseInt(y.innerHTML)) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        } else {
+          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        }
+      } else if (dir == "desc") {
+        if (n === 1) {
+          // Special handling for Abuse Confidence Score (convert to integer for sorting)
+          if (parseInt(x.innerHTML) < parseInt(y.innerHTML)) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        } else {
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
+            shouldSwitch = true;
+            break;
+          }
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      // Each time a switch is done, increase this count by 1:
+      switchcount ++;
+    } else {
+      /* If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again. */
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+    </body>
+    </html>
+    
