@@ -14,6 +14,6 @@ Before you begin, ensure you have met the following requirements:
 ## Usage
 
   ```bash
-   git clone https://github.com/yourusername/ip-address-abuse-checker.git
+   git clone https://github.com/mahmud0x/AbuseIPDB-Logs-Scanner.git
    pip install -r requirements.txt
    python scanner.py <full_file_path> <ABUSEDB_API_KEY>
