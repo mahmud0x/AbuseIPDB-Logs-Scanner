@@ -4,4 +4,4 @@ time
 ipaddress
 requests
 datetime
-flag
+emoji-country-flag
