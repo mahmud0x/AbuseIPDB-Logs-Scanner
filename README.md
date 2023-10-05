@@ -13,10 +13,8 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-1. Clone the repository:
-
-   ```bash
+  ```bash
    git clone https://github.com/yourusername/ip-address-abuse-checker.git
    pip install -r requirements.txt
    python scanner.py <full_file_path> <ABUSEDB_API_KEY>
-```
+
